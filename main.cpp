@@ -31,15 +31,16 @@ int main()
         {
             //_sleep(1000);
             RDLock m(mutex);
-            std::this_thread::sleep_for(std::chrono::seconds(2));
-            std::cout << i << std::endl;
-            std::this_thread::sleep_for(std::chrono::seconds(10));
+            Sleep(1000);
+            std::cout << i;
+            Sleep(1000);
         });
         t.detach();
     }
 
-    std::this_thread::sleep_for(std::chrono::seconds(30));
 
+    //
+    Sleep(2000);
 
 
     return 0;
