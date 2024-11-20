@@ -8,8 +8,8 @@
 #define UniquePointer std::unique_ptr
 #define WeakPointer std::weak_ptr
 
-#define Make std::make_shared
-#define MakeShared std::make_shared
-#define MakeUnique std::make_unique
-#define MakeWeak std::make_weak
+#define MakePointer std::make_shared
+#define MakeSharedPointer std::make_shared
+#define MakeUniquePointer std::make_unique
+#define MakeWeakPointer std::make_weak
 

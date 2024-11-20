@@ -8,6 +8,12 @@
 
 #include "export.hpp"
 
+#include "mutex.hpp"
+
+#include "thread.hpp"
+
+#include "time.hpp"
+
 #include "misc.hpp"
 
 
