@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "pico/pico.hpp"
+#include "pico.hpp"
 
 void test(void* _)
 {
@@ -20,7 +20,7 @@ int main()
 
     var b = Now();
 
-    std::cout << b << " " << FormatTime(b, LocaleTime) << std::endl;
+    std::cout << b << " " << FormatTime(b, LOCALE_TIME) << std::endl;
 
 
     SharedMutex mutex;
