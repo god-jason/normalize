@@ -96,6 +96,8 @@ typedef std::shared_lock<SharedMutex> RDLock;
 // 写锁
 typedef std::unique_lock<SharedMutex> WRLock;
 
+#include<atomic>
+#define Atomic std::atomic
 
 #include <thread>
 

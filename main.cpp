@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "normalize.hpp"
+#include "cute.hpp"
 
 void test(void* _)
 {
@@ -16,6 +16,8 @@ int main()
     var a = MakePointer<string>("string");
 
     std::cout << *a.get() << std::endl;
+
+    std::cout << *a << std::endl;
 
 
     var b = Now();
